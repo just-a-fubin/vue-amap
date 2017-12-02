@@ -147,7 +147,7 @@ export default {
           });
           this._onSearchResult(true, LngLats);
         } else if (result.poiList === undefined) {
-          this._onSearchResult(false, null);
+          this._onSearchResult(false, result);
         }
       });
     },

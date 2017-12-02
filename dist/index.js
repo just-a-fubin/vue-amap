@@ -3020,7 +3020,7 @@ exports.default = {
           });
           _this3._onSearchResult(true, LngLats);
         } else if (result.poiList === undefined) {
-          _this3._onSearchResult(false, null);
+          _this3._onSearchResult(false, result);
         }
       });
     },
